@@ -9,7 +9,7 @@ const swaggerDefinition = {
     },
     servers: [
         {
-            url: '/v1/orders',
+            url: 'http://localhost:17301/api/v1',
             description: 'Serveur de développement',
         },
     ],
@@ -77,6 +77,18 @@ const swaggerDefinition = {
             },
         },
     },
+    securitySchemes: {
+        ApiKeyAuth: {
+            type: 'apiKey',
+            in: 'header',
+            name: 'X-API-Key'
+        }
+    },
+    security: [{
+        ApiKeyAuth: []
+    }]
+
+
 };
 
 const options: swaggerJSDoc.Options = {

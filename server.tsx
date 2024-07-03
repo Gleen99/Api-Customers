@@ -10,7 +10,6 @@ import rateLimit from 'express-rate-limit';
 import winston from 'winston';
 import dotenv from 'dotenv';
 import {initGetCustomerOrdersConsumer} from "./src/consumers/initGetCustomerOrdersConsumer";
-import {fetchOrderDetails} from "./src/consumers/orderService";
 
 dotenv.config();
 
@@ -46,7 +45,19 @@ const limiter = rateLimit({
     max: 100 // limit each IP to 100 requests per windowMs
 });
 app.use(limiter);
-
+const isValidApiKey = (apiKey: string): boolean => {
+    // Par exemple, vérifiez si la clé existe dans une base de données ou un fichier de configuration
+    const validApiKeys = ['key1', 'key2', 'key3']; // Exemple simplifié
+    return validApiKeys.includes(apiKey);
+};
+const validateApiKey = (req: Request, res: Response, next: NextFunction) => {
+    const apiKey = req.header('X-API-Key');
+    if (!apiKey || !isValidApiKey(apiKey)) {
+        logger.warn(`Tentative d'accès non autorisé avec la clé API: ${apiKey}`);
+        return res.status(401).json({ error: 'Invalid API key' });
+    }
+    next();
+};
 // Connexion à MongoDB
 const connectToMongoDB = async () => {
     try {
@@ -88,10 +99,10 @@ mongoose.connection.on('disconnected', () => {
 });
 
 // Définissez l'URL de base de votre API
-const API_BASE_PATH = '/v1';
+const API_BASE_PATH = '/api/v1';
 
 // Routes
-app.use(`${API_BASE_PATH}/customers`, customersRoutes);
+app.use(`${API_BASE_PATH}/customers`,validateApiKey, customersRoutes);
 
 // Route pour la documentation Swagger
 app.use(`${API_BASE_PATH}/docs`, swaggerUI.serve, swaggerUI.setup(swaggerSpec));
