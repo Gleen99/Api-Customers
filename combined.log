@@ -1,0 +1,507 @@
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-01T12:36:26.171Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-01T12:36:26.181Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-01T12:36:26.758Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-01T12:36:54.302Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-01T12:36:54.310Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-01T12:36:54.410Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-01T12:37:30.292Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-01T12:37:30.301Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-01T12:37:30.509Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-01T12:37:30.988Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-01T12:37:30.998Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-01T12:37:31.103Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-01T12:40:30.358Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-01T12:40:30.427Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-01T12:40:30.877Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-01T12:40:30.892Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-01T12:40:31.455Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-01T12:40:31.457Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-01T12:40:31.465Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-01T12:40:31.469Z"}
+{"level":"info","message":"Connexion à MongoDB interrompue","timestamp":"2024-07-01T13:29:23.116Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-01T13:29:34.940Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T07:47:41.420Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T07:47:41.430Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T07:47:41.529Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T07:47:41.550Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T07:47:41.551Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T07:47:41.961Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T07:47:41.972Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T07:47:42.369Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T07:48:56.882Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T07:48:56.892Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T07:48:57.036Z"}
+{"level":"info","message":"Connexion à MongoDB interrompue","timestamp":"2024-07-02T07:53:45.556Z"}
+{"level":"info","message":"Connexions fermées proprement","timestamp":"2024-07-02T07:53:45.729Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T07:54:32.610Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T07:54:32.620Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T07:54:32.802Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T07:54:32.813Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T07:54:32.822Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T09:37:14.440Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T09:37:14.460Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T09:37:14.691Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T09:37:14.702Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T09:37:14.705Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T09:46:30.349Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T09:46:30.355Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T09:46:30.544Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T09:46:30.551Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T09:46:30.552Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T09:48:40.323Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T09:48:40.363Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T09:48:42.264Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T09:48:42.281Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T09:48:42.291Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T09:49:30.435Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T09:49:30.446Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T09:49:30.582Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T09:49:30.590Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T09:49:30.591Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T09:55:07.712Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T09:55:07.731Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T09:55:09.511Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T09:55:09.523Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T09:55:09.525Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T10:39:04.025Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T10:39:04.033Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T10:39:04.281Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T10:41:37.409Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T10:41:37.419Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T10:41:37.675Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T10:42:23.787Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T10:42:23.794Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T10:42:23.907Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T10:47:34.460Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T10:47:34.470Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T10:47:34.762Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T10:47:34.783Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T10:47:34.800Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T10:47:34.805Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T10:47:34.808Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T10:50:43.078Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T10:50:43.083Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T10:50:43.233Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T10:50:43.247Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T10:50:43.261Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T10:50:43.266Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T10:50:43.267Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T10:51:58.985Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T10:51:58.991Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T10:51:59.115Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T10:51:59.145Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T10:51:59.160Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T10:51:59.167Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T10:51:59.169Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T10:53:35.085Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T10:53:35.092Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T10:53:35.206Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T10:53:35.219Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T10:53:35.229Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T10:53:35.234Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T10:53:35.235Z"}
+{"level":"info","message":"Connexion à MongoDB interrompue","timestamp":"2024-07-02T10:58:16.900Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T11:14:07.092Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T11:14:07.100Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T11:14:07.734Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T11:14:08.136Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T11:14:08.703Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T11:14:08.718Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T11:14:08.755Z"}
+{"level":"info","message":"Connexion à MongoDB interrompue","timestamp":"2024-07-02T11:15:49.924Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T11:16:38.798Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T11:16:38.811Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T11:16:39.054Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T11:16:39.080Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T11:16:39.149Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T11:16:39.161Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T11:16:39.164Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T11:20:57.774Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T11:20:57.783Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T11:20:57.957Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T11:20:57.968Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T11:20:57.983Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T11:20:57.987Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T11:20:57.988Z"}
+{"level":"info","message":"Connexion à MongoDB interrompue","timestamp":"2024-07-02T11:21:30.308Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T11:21:55.554Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T11:21:55.567Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T11:21:55.768Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T11:21:55.786Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T11:21:55.820Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T11:21:55.830Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T11:21:55.836Z"}
+{"level":"info","message":"Connexion à MongoDB interrompue","timestamp":"2024-07-02T11:39:03.583Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T11:39:38.079Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T11:39:38.085Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T11:39:40.108Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T11:39:40.119Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T11:39:40.525Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T11:39:40.534Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T11:39:40.535Z"}
+{"level":"info","message":"Connexion à MongoDB interrompue","timestamp":"2024-07-02T11:41:37.866Z"}
+{"level":"info","message":"Connexions fermées proprement","timestamp":"2024-07-02T11:41:37.881Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T11:42:08.178Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T11:42:08.185Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T11:42:08.416Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T11:42:08.430Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T11:42:08.442Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T11:42:08.446Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T11:42:08.451Z"}
+{"level":"info","message":"Connexion à MongoDB interrompue","timestamp":"2024-07-02T11:44:08.574Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T11:49:33.764Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T11:49:33.773Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T11:49:34.013Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T11:49:34.026Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T11:49:34.045Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T11:49:34.050Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T11:49:34.052Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T11:54:35.318Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T11:54:35.354Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T11:54:35.664Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T11:54:35.677Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T11:54:35.694Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T11:54:35.701Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T11:54:35.702Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T11:55:41.298Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T11:55:41.317Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T11:55:41.689Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T11:55:41.720Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T11:55:41.737Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T11:55:41.848Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T11:55:41.854Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T11:59:14.214Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T11:59:14.228Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T11:59:14.487Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T11:59:14.505Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T11:59:14.527Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T11:59:14.536Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T11:59:14.537Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T12:04:12.771Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T12:04:12.783Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T12:04:13.253Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T12:04:13.272Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T12:04:13.298Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T12:04:13.308Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T12:04:13.310Z"}
+{"level":"info","message":"Connexion à MongoDB interrompue","timestamp":"2024-07-02T12:11:14.045Z"}
+{"level":"info","message":"Connexions fermées proprement","timestamp":"2024-07-02T12:11:14.104Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T12:11:50.133Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T12:11:50.141Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T12:11:51.058Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T12:11:51.069Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T12:11:51.086Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T12:11:51.090Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T12:11:51.091Z"}
+{"level":"info","message":"Connexion à MongoDB interrompue","timestamp":"2024-07-02T12:14:34.523Z"}
+{"level":"info","message":"Connexions fermées proprement","timestamp":"2024-07-02T12:14:34.568Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T12:15:01.323Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T12:15:01.335Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T12:15:01.495Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T12:15:01.523Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T12:15:01.816Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T12:15:01.831Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T12:15:01.832Z"}
+{"level":"info","message":"Connexion à MongoDB interrompue","timestamp":"2024-07-02T12:17:57.720Z"}
+{"level":"info","message":"Connexions fermées proprement","timestamp":"2024-07-02T12:17:57.736Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T12:18:10.741Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T12:18:10.749Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T12:18:10.858Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T12:18:10.868Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T12:18:10.878Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T12:18:10.882Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T12:18:10.882Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T12:20:58.613Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T12:20:58.661Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T12:20:59.027Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T12:20:59.063Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T12:20:59.431Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T12:20:59.443Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T12:20:59.448Z"}
+{"level":"info","message":"Connexion à MongoDB interrompue","timestamp":"2024-07-02T12:44:45.235Z"}
+{"level":"info","message":"Connexions fermées proprement","timestamp":"2024-07-02T12:44:45.264Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T12:50:15.918Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T12:50:15.936Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T12:50:16.209Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T12:50:16.242Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T12:50:16.383Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T12:50:16.391Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T12:50:16.393Z"}
+{"level":"info","message":"Connexion à MongoDB interrompue","timestamp":"2024-07-02T13:00:40.583Z"}
+{"level":"info","message":"Connexions fermées proprement","timestamp":"2024-07-02T13:00:40.653Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T13:01:16.479Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T13:01:16.510Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T13:01:17.544Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T13:01:17.612Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T13:01:21.122Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T13:01:21.127Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T13:01:21.129Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T13:03:44.804Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T13:03:44.814Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T13:03:44.926Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T13:03:44.943Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T13:03:45.045Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T13:03:45.051Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T13:03:45.051Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T13:06:33.763Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T13:06:33.780Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T13:06:33.898Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T13:06:33.919Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T13:06:34.096Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T13:06:34.102Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T13:06:34.104Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T13:10:57.976Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T13:10:57.995Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T13:10:58.116Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T13:10:58.129Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T13:10:58.254Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T13:10:58.261Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T13:10:58.272Z"}
+{"level":"info","message":"Connexion à MongoDB interrompue","timestamp":"2024-07-02T13:12:17.723Z"}
+{"level":"info","message":"Connexions fermées proprement","timestamp":"2024-07-02T13:12:17.866Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T13:12:59.570Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T13:12:59.611Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T13:12:59.869Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T13:12:59.910Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T13:13:00.061Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T13:13:00.070Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T13:13:00.080Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T13:16:02.422Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T13:16:02.428Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T13:16:02.518Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T13:16:02.540Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T13:16:02.631Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T13:16:02.638Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T13:16:02.640Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T13:42:41.593Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T13:42:41.613Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T13:42:41.966Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T13:42:42.050Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T13:42:42.370Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T13:42:42.379Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T13:42:42.381Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T13:45:51.419Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T13:45:51.443Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T13:45:51.759Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T13:45:51.787Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T13:45:51.948Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T13:45:51.960Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T13:45:51.968Z"}
+{"level":"info","message":"Connexion à MongoDB interrompue","timestamp":"2024-07-02T14:07:39.153Z"}
+{"level":"info","message":"Connexions fermées proprement","timestamp":"2024-07-02T14:07:39.304Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T14:08:37.263Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T14:08:37.275Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T14:08:37.397Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T14:08:37.424Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T14:08:37.515Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T14:08:37.522Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T14:08:37.523Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T14:30:07.518Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T14:30:07.530Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T14:30:07.637Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T14:30:07.657Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T14:30:07.777Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T14:30:07.789Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T14:30:07.791Z"}
+{"level":"info","message":"Connexion à MongoDB interrompue","timestamp":"2024-07-02T14:30:19.694Z"}
+{"level":"info","message":"Connexions fermées proprement","timestamp":"2024-07-02T14:30:19.744Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T14:31:03.284Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T14:31:03.305Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T14:31:04.140Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T14:31:04.174Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T14:31:04.402Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T14:31:04.407Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T14:31:04.411Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T14:39:08.484Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T14:39:08.499Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T14:39:09.353Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T14:39:09.455Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T14:39:09.761Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T14:39:09.768Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T14:39:09.769Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T14:45:16.111Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T14:45:16.137Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T14:45:16.295Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T14:45:16.342Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T14:45:16.583Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T14:45:16.591Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T14:45:16.592Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T15:19:11.291Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T15:19:11.301Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T15:19:11.587Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T15:19:11.608Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T15:19:11.718Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T15:19:11.722Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T15:19:11.723Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T15:29:32.715Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T15:29:32.751Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T15:29:33.922Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T15:29:33.984Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T15:29:34.216Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T15:29:34.222Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T15:29:34.227Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T16:02:29.671Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T16:02:29.679Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T16:02:29.765Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T16:02:29.781Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T16:02:29.851Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T16:02:29.856Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T16:02:29.857Z"}
+{"level":"info","message":"Connexion à MongoDB interrompue","timestamp":"2024-07-02T16:26:16.809Z"}
+{"level":"info","message":"Connexions fermées proprement","timestamp":"2024-07-02T16:26:17.315Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T16:27:07.788Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T16:27:07.802Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T16:27:07.938Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T16:27:07.965Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T16:27:08.050Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T16:27:08.056Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T16:27:08.056Z"}
+{"level":"info","message":"Connexion à MongoDB interrompue","timestamp":"2024-07-02T16:51:25.713Z"}
+{"level":"info","message":"Connexions fermées proprement","timestamp":"2024-07-02T16:51:25.886Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T16:52:17.449Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T16:52:17.474Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T16:52:17.849Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T16:52:17.875Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T16:52:18.160Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T16:52:18.170Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T16:52:18.171Z"}
+{"level":"info","message":"Connexion à MongoDB interrompue","timestamp":"2024-07-02T17:17:29.603Z"}
+{"level":"info","message":"Connexions fermées proprement","timestamp":"2024-07-02T17:17:30.201Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T17:18:18.619Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T17:18:18.629Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T17:18:18.727Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T17:18:18.750Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T17:18:18.836Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T17:18:18.843Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T17:18:18.845Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T17:56:24.793Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T17:56:24.804Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T17:56:25.116Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T17:56:25.184Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T17:56:25.411Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T17:56:25.451Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T17:56:25.476Z"}
+{"level":"info","message":"Connexion à MongoDB interrompue","timestamp":"2024-07-02T18:01:22.305Z"}
+{"level":"info","message":"Connexions fermées proprement","timestamp":"2024-07-02T18:01:22.428Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T18:01:52.930Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T18:01:52.935Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T18:01:53.098Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T18:01:53.196Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T18:01:53.334Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T18:01:53.339Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T18:01:53.340Z"}
+{"level":"info","message":"Connexion à MongoDB interrompue","timestamp":"2024-07-02T18:03:35.870Z"}
+{"level":"info","message":"Connexions fermées proprement","timestamp":"2024-07-02T18:03:35.903Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T18:03:56.541Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T18:03:56.551Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T18:03:56.832Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T18:03:56.853Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T18:03:56.978Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T18:03:56.987Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T18:03:56.988Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T18:09:29.450Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T18:09:29.460Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T18:09:29.567Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T18:09:29.605Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T18:09:29.735Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T18:09:29.740Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T18:09:29.741Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T18:10:19.415Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T18:10:19.435Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T18:10:19.678Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T18:10:19.717Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T18:10:20.228Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T18:10:20.234Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T18:10:20.235Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T18:11:13.806Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T18:11:13.814Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T18:11:14.037Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T18:11:14.076Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T18:11:14.229Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T18:11:14.234Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T18:11:14.235Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T18:14:50.536Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T18:14:50.547Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T18:14:50.723Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T18:14:50.765Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T18:14:51.125Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T18:14:51.130Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T18:14:51.131Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T18:19:27.310Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T18:19:27.320Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T18:19:27.743Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T18:19:27.802Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T18:19:28.422Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T18:19:28.447Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T18:19:28.458Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T18:22:44.485Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T18:22:44.500Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T18:22:44.955Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T18:22:45.045Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T18:22:45.881Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T18:22:45.889Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T18:22:45.919Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T18:29:11.414Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T18:29:11.430Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T18:29:11.558Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T18:29:11.581Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T18:29:11.992Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T18:29:12.002Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T18:29:12.003Z"}
+{"level":"info","message":"Connexion à MongoDB interrompue","timestamp":"2024-07-02T18:50:52.296Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T18:51:48.664Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T18:51:48.674Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T18:52:18.714Z"}
+{"level":"error","message":"Erreur lors de la configuration de RabbitMQ: Cannot read properties of null (reading 'prefetch')","stack":"TypeError: Cannot read properties of null (reading 'prefetch')\n    at RabbitMQClient.<anonymous> (C:\\Users\\darsy\\epsi\\mspr4\\Api Customers\\rabbitmq.tsx:116:25)\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\darsy\\epsi\\mspr4\\Api Customers\\rabbitmq.tsx:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-07-02T18:52:48.734Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T20:01:12.547Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T20:01:12.580Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T20:01:12.879Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T20:01:12.982Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T20:01:13.094Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T20:01:13.119Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T20:01:13.141Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T20:10:21.120Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T20:10:21.126Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T20:10:21.211Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T20:10:21.227Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T20:10:21.315Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T20:10:21.320Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T20:10:21.321Z"}
+{"level":"info","message":"Connexion à MongoDB interrompue","timestamp":"2024-07-02T20:16:24.681Z"}
+{"level":"info","message":"Connexions fermées proprement","timestamp":"2024-07-02T20:16:24.705Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T20:16:35.282Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T20:16:35.287Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T20:17:05.311Z"}
+{"level":"error","message":"Erreur lors de la configuration de RabbitMQ: Cannot read properties of null (reading 'prefetch')","stack":"TypeError: Cannot read properties of null (reading 'prefetch')\n    at RabbitMQClient.<anonymous> (C:\\Users\\darsy\\epsi\\mspr4\\Api Customers\\rabbitmq.tsx:116:25)\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\darsy\\epsi\\mspr4\\Api Customers\\rabbitmq.tsx:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-07-02T20:17:35.333Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T20:42:01.573Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T20:42:01.586Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T20:42:01.706Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-02T20:42:01.749Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-02T20:42:01.836Z"}
+{"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-02T20:42:01.842Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/v1/docs","timestamp":"2024-07-02T20:42:01.843Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T22:21:01.424Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T22:21:01.431Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T22:21:31.488Z"}
+{"level":"error","message":"Erreur lors de la configuration de RabbitMQ: Cannot read properties of null (reading 'prefetch')","stack":"TypeError: Cannot read properties of null (reading 'prefetch')\n    at RabbitMQClient.<anonymous> (C:\\Users\\darsy\\epsi\\mspr4\\Api Customers\\rabbitmq.tsx:116:25)\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\darsy\\epsi\\mspr4\\Api Customers\\rabbitmq.tsx:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-07-02T22:22:01.510Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T22:23:06.755Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T22:23:06.766Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T22:23:36.809Z"}
+{"level":"error","message":"Erreur lors de la configuration de RabbitMQ: Cannot read properties of null (reading 'prefetch')","stack":"TypeError: Cannot read properties of null (reading 'prefetch')\n    at RabbitMQClient.<anonymous> (C:\\Users\\darsy\\epsi\\mspr4\\Api Customers\\rabbitmq.tsx:116:25)\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\darsy\\epsi\\mspr4\\Api Customers\\rabbitmq.tsx:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-07-02T22:24:06.827Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T22:24:35.647Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T22:24:35.651Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T22:25:05.678Z"}
+{"level":"error","message":"Erreur lors de la configuration de RabbitMQ: Cannot read properties of null (reading 'prefetch')","stack":"TypeError: Cannot read properties of null (reading 'prefetch')\n    at RabbitMQClient.<anonymous> (C:\\Users\\darsy\\epsi\\mspr4\\Api Customers\\rabbitmq.tsx:116:25)\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\darsy\\epsi\\mspr4\\Api Customers\\rabbitmq.tsx:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-07-02T22:25:35.693Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T23:15:48.503Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T23:15:48.513Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T23:16:18.557Z"}
+{"level":"error","message":"Erreur lors de la configuration de RabbitMQ: Cannot read properties of null (reading 'prefetch')","stack":"TypeError: Cannot read properties of null (reading 'prefetch')\n    at RabbitMQClient.<anonymous> (C:\\Users\\darsy\\epsi\\mspr4\\Api Customers\\rabbitmq.tsx:116:25)\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\darsy\\epsi\\mspr4\\Api Customers\\rabbitmq.tsx:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-07-02T23:16:48.570Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T23:36:17.864Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T23:36:17.872Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T23:36:47.916Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T23:37:06.046Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T23:37:06.071Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-02T23:37:40.223Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-02T23:37:40.227Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-02T23:38:10.256Z"}
+{"level":"error","message":"Erreur lors de la configuration de RabbitMQ: Cannot read properties of null (reading 'prefetch')","stack":"TypeError: Cannot read properties of null (reading 'prefetch')\n    at RabbitMQClient.<anonymous> (C:\\Users\\darsy\\epsi\\mspr4\\Api Customers\\rabbitmq.tsx:116:25)\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\darsy\\epsi\\mspr4\\Api Customers\\rabbitmq.tsx:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-07-02T23:38:40.270Z"}
