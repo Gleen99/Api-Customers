@@ -1,15 +1,56 @@
 {
   "info": {
-    "name": "API Clients",
-    "description": "Collection de requêtes pour tester l'API Clients",
+    "name": "API Orders",
+    "description": "Collection de requêtes pour tester l'API Orders",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
   },
   "item": [
     {
-      "name": "Create a unique customer",
+      "name": "Récupérer toutes les commandes",
+      "request": {
+        "method": "GET",
+        "url": "http://88.125.155.66:33082/api/v1/orders",
+        "header": [
+          {
+            "key": "X-API-Key",
+            "value": "key1",
+            "type": "text"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Récupérer une commande",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://88.125.155.66:33082/api/v1/orders/{{orderId}}",
+          "protocol": "http",
+          "host": [
+            "88.125.155.66"
+          ],
+          "port": "33082",
+          "path": [
+            "api",
+            "v1",
+            "orders",
+            "{{orderId}}"
+          ]
+        },
+        "header": [
+          {
+            "key": "X-API-Key",
+            "value": "key1",
+            "type": "text"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Créer une commande",
       "request": {
         "method": "POST",
-        "url": "http://88.125.155.66:32783/api/v1/customers",
+        "url": "http://88.125.155.66:33082/api/v1/orders",
         "header": [
           {
             "key": "X-API-Key",
@@ -24,7 +65,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n  \"name\": \"Unique Customer Name Test\",\n  \"email\": \"testcustomer@example.com\",\n  \"address\": \"123 Test Street\"\n}",
+          "raw": "{\n    \"customerId\": \"12345\",\n    \"orderDate\": \"2023-01-01\",\n    \"items\": [\n        {\n            \"productId\": \"67890\",\n            \"quantity\": 2\n        }\n    ]\n}",
           "options": {
             "raw": {
               "language": "json"
@@ -37,23 +78,8 @@
           "listen": "test",
           "script": {
             "exec": [
-              "console.log('Request Headers:', pm.request.headers);",
-              "console.log('Request Body:', pm.request.body);",
-              "console.log('Response:', pm.response.json());",
               "var jsonData = pm.response.json();",
-              "pm.environment.set(\"customerId\", jsonData._id);",
-              "pm.test(\"Status code is 201\", function () {",
-              "    pm.response.to.have.status(201);",
-              "});",
-              "pm.test(\"Customer name is correct\", function () {",
-              "    pm.expect(jsonData.name).to.eql(\"Unique Customer Name Test\");",
-              "});",
-              "pm.test(\"Customer email is correct\", function () {",
-              "    pm.expect(jsonData.email).to.eql(\"testcustomer@example.com\");",
-              "});",
-              "pm.test(\"Customer address is correct\", function () {",
-              "    pm.expect(jsonData.address).to.eql(\"123 Test Street\");",
-              "});"
+              "pm.environment.set(\"orderId\", jsonData._id);"
             ],
             "type": "text/javascript"
           }
@@ -61,72 +87,21 @@
       ]
     },
     {
-      "name": "Retrieve all customers",
-      "request": {
-        "method": "GET",
-        "url": "http://88.125.155.66:32783/api/v1/customers",
-        "header": [
-          {
-            "key": "X-API-Key",
-            "value": "key1",
-            "type": "text"
-          },
-          {
-            "key": "Content-Type",
-            "value": "application/json",
-            "type": "text"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Retrieve a customer",
-      "request": {
-        "method": "GET",
-        "url": {
-          "raw": "http://88.125.155.66:32783/api/v1/customers/{{customerId}}",
-          "protocol": "http",
-          "host": [
-            "88.125.155.66"
-          ],
-          "port": "32783",
-          "path": [
-            "api",
-            "v1",
-            "customers",
-            "{{customerId}}"
-          ]
-        },
-        "header": [
-          {
-            "key": "X-API-Key",
-            "value": "key1",
-            "type": "text"
-          },
-          {
-            "key": "Content-Type",
-            "value": "application/json",
-            "type": "text"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Update a customer",
+      "name": "Mettre à jour une commande",
       "request": {
         "method": "PUT",
         "url": {
-          "raw": "http://88.125.155.66:32783/api/v1/customers/{{customerId}}",
+          "raw": "http://88.125.155.66:33082/api/v1/orders/{{orderId}}",
           "protocol": "http",
           "host": [
             "88.125.155.66"
           ],
-          "port": "32783",
+          "port": "33082",
           "path": [
             "api",
             "v1",
-            "customers",
-            "{{customerId}}"
+            "orders",
+            "{{orderId}}"
           ]
         },
         "header": [
@@ -143,7 +118,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n  \"name\": \"Updated Customer Name Test\",\n  \"email\": \"updatedcustomer@example.com\",\n  \"address\": \"456 Updated Street\"\n}",
+          "raw": "{\n    \"customerId\": \"12345\",\n    \"orderDate\": \"2023-01-01\",\n    \"items\": [\n        {\n            \"productId\": \"67890\",\n            \"quantity\": 3\n        }\n    ]\n}",
           "options": {
             "raw": {
               "language": "json"
@@ -153,32 +128,27 @@
       }
     },
     {
-      "name": "Delete a customer",
+      "name": "Supprimer une commande",
       "request": {
         "method": "DELETE",
         "url": {
-          "raw": "http://88.125.155.66:32783/api/v1/customers/{{customerId}}",
+          "raw": "http://88.125.155.66:33082/api/v1/orders/{{orderId}}",
           "protocol": "http",
           "host": [
             "88.125.155.66"
           ],
-          "port": "32783",
+          "port": "33082",
           "path": [
             "api",
             "v1",
-            "customers",
-            "{{customerId}}"
+            "orders",
+            "{{orderId}}"
           ]
         },
         "header": [
           {
             "key": "X-API-Key",
             "value": "key1",
-            "type": "text"
-          },
-          {
-            "key": "Content-Type",
-            "value": "application/json",
             "type": "text"
           }
         ]
@@ -203,7 +173,7 @@
   ],
   "variable": [
     {
-      "key": "customerId",
+      "key": "orderId",
       "value": ""
     }
   ]
