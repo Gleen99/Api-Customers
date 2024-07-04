@@ -15,7 +15,6 @@ dotenv.config();
 
 const app: Express = express();
 
-// Configuration de Winston pour le logging
 const logger = winston.createLogger({
     level: 'info',
     format: winston.format.combine(
