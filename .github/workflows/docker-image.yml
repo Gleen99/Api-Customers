@@ -28,7 +28,7 @@ jobs:
       - name: Build and push Docker images
         run: |
           docker build -t api-customers .
-          docker tag myapp-with-mongo ${{ secrets.DOCKER_USERNAME }}/api-customers:latest
+          docker tag api-customers ${{ secrets.DOCKER_USERNAME }}/api-customers:latest
           docker push ${{ secrets.DOCKER_USERNAME }}/api-customers:latest
         env:
           PORT: 3000
