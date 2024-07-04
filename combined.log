@@ -789,3 +789,41 @@
 {"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-04T21:18:20.802Z"}
 {"level":"info","message":"Serveur démarré sur le port 19301","timestamp":"2024-07-04T21:18:20.809Z"}
 {"level":"info","message":"Documentation Swagger disponible sur http://localhost:19301/api/v1/docs","timestamp":"2024-07-04T21:18:20.810Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-04T21:50:39.754Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-04T21:50:39.762Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-04T21:50:39.777Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-04T21:51:26.454Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-04T21:51:26.458Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-04T21:51:26.672Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-04T21:51:26.860Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-04T21:51:27.256Z"}
+{"level":"info","message":"Serveur démarré sur le port 3000","timestamp":"2024-07-04T21:51:27.264Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:3000/api/v1/docs","timestamp":"2024-07-04T21:51:27.265Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-04T22:00:35.957Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-04T22:00:35.962Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-04T22:00:36.180Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-04T22:00:36.354Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-04T22:00:36.721Z"}
+{"level":"info","message":"Serveur démarré sur le port 3000","timestamp":"2024-07-04T22:00:36.726Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:3000/api/v1/docs","timestamp":"2024-07-04T22:00:36.726Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-04T22:07:21.843Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-04T22:07:21.868Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-04T22:07:22.095Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-04T22:07:22.272Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-04T22:07:22.637Z"}
+{"level":"info","message":"Serveur démarré sur le port 3000","timestamp":"2024-07-04T22:07:22.641Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:3000/api/v1/docs","timestamp":"2024-07-04T22:07:22.642Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-04T22:12:31.280Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-04T22:12:31.287Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-04T22:12:31.495Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-04T22:12:31.676Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-04T22:12:32.032Z"}
+{"level":"info","message":"Serveur démarré sur le port 3000","timestamp":"2024-07-04T22:12:32.050Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:3000/api/v1/docs","timestamp":"2024-07-04T22:12:32.052Z"}
+{"level":"info","message":"Connexion à MongoDB réussie","timestamp":"2024-07-04T22:18:05.549Z"}
+{"level":"info","message":"Connecté à MongoDB","timestamp":"2024-07-04T22:18:05.554Z"}
+{"level":"info","message":"Connecté à RabbitMQ","timestamp":"2024-07-04T22:18:05.763Z"}
+{"level":"info","message":"Setup RabbitMQ terminé","timestamp":"2024-07-04T22:18:05.927Z"}
+{"level":"info","message":"Consommateurs initialisés","timestamp":"2024-07-04T22:18:06.280Z"}
+{"level":"info","message":"Serveur démarré sur le port 3000","timestamp":"2024-07-04T22:18:06.285Z"}
+{"level":"info","message":"Documentation Swagger disponible sur http://localhost:3000/api/v1/docs","timestamp":"2024-07-04T22:18:06.286Z"}
