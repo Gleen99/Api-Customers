@@ -1,14 +1,15 @@
+import dotenv from 'dotenv';
+import express, { Express, NextFunction, Request, Response } from 'express';
+import rateLimit from 'express-rate-limit';
+import helmet from 'helmet';
 import mongoose from 'mongoose';
+import promClient from 'prom-client';
 import swaggerUI from 'swagger-ui-express';
-import swaggerSpec from './swagger';
+import winston from 'winston';
 import { rabbitMQClient } from './rabbitmq';
 import customersRoutes from "./src/routes/CustomersRoutes";
-import express, { Express, Request, Response, NextFunction } from 'express';
-import helmet from 'helmet';
-import rateLimit from 'express-rate-limit';
-import winston from 'winston';
-import dotenv from 'dotenv';
-import {setupCustomerService} from "./src/services/customerServices";
+import { setupCustomerService } from "./src/services/customerServices";
+import swaggerSpec from './swagger';
 
 dotenv.config();
 
@@ -31,6 +32,14 @@ if (process.env.NODE_ENV !== 'production') {
         format: winston.format.simple(),
     }));
 }
+
+// Configuration des métriques Prometheus
+const collectDefaultMetrics = promClient.collectDefaultMetrics;
+collectDefaultMetrics();
+app.get('/metrics', async (req: Request, res: Response) => {
+    res.set('Content-Type', promClient.register.contentType);
+    res.end(await promClient.register.metrics());
+});
 
 // Middlewares de sécurité
 app.use(helmet());
@@ -56,6 +65,7 @@ const validateApiKey = (req: Request, res: Response, next: NextFunction) => {
     }
     next();
 };
+
 // Connexion à MongoDB
 const connectToMongoDB = async () => {
     try {
@@ -119,7 +129,7 @@ const startServer = async () => {
         await connectToMongoDB();
         await connectToRabbitMQ();
 
-        const PORT = 19301;
+        const PORT = 3000;
         app.listen(PORT, () => {
             logger.info(`Serveur démarré sur le port ${PORT}`);
             logger.info(`Documentation Swagger disponible sur http://localhost:${PORT}${API_BASE_PATH}/docs`);

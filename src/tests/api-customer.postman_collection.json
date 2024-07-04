@@ -9,7 +9,7 @@
       "name": "Récupérer tous les clients",
       "request": {
         "method": "GET",
-        "url": "http://localhost:19301/customers"
+        "url": "http://88.125.155.66:32784/api/v1/customers"
       }
     },
     {
@@ -17,11 +17,13 @@
       "request": {
         "method": "GET",
         "url": {
-          "raw": "http://localhost:19301/customers/{{customerId}}",
+          "raw": "http://88.125.155.66:32784/api/v1/customers/{{customerId}}",
           "host": [
-            "http://localhost:19301"
+            "http://88.125.155.66:32784"
           ],
           "path": [
+            "api",
+            "v1",
             "customers",
             "{{customerId}}"
           ]
@@ -32,7 +34,7 @@
       "name": "Créer un client",
       "request": {
         "method": "POST",
-        "url": "http://localhost:19301/customers",
+        "url": "http://88.125.155.66:32784/api/v1/customers",
         "body": {
           "mode": "raw",
           "raw": "{\n    \"name\": \"John Doe\",\n    \"username\": \"johndoe123\",\n    \"firstName\": \"John\",\n    \"lastName\": \"Doe\",\n    \"address\": {\n        \"postalCode\": \"75001\",\n        \"city\": \"Paris\"\n    },\n    \"profile\": {\n        \"firstName\": \"John\",\n        \"lastName\": \"Doe\"\n    },\n    \"company\": {\n        \"companyName\": \"Acme Inc.\"\n    }\n}",
@@ -61,11 +63,13 @@
       "request": {
         "method": "PUT",
         "url": {
-          "raw": "http://localhost:19301/customers/{{customerId}}",
+          "raw": "http://88.125.155.66:32784/api/v1/customers/{{customerId}}",
           "host": [
-            "http://localhost:19301"
+            "http://88.125.155.66:32784"
           ],
           "path": [
+            "api",
+            "v1",
             "customers",
             "{{customerId}}"
           ]
@@ -86,11 +90,13 @@
       "request": {
         "method": "DELETE",
         "url": {
-          "raw": "http://localhost:19301/customers/{{customerId}}",
+          "raw": "http://88.125.155.66:32784/api/v1/customers/{{customerId}}",
           "host": [
-            "http://localhost:19301"
+            "http://88.125.155.66:32784"
           ],
           "path": [
+            "api",
+            "v1",
             "customers",
             "{{customerId}}"
           ]
@@ -102,11 +108,13 @@
       "request": {
         "method": "GET",
         "url": {
-          "raw": "http://localhost:19301/customers/{{customerId}}/orders",
+          "raw": "http://88.125.155.66:32784/api/v1/customers/{{customerId}}/orders",
           "host": [
-            "http://localhost:19301"
+            "http://88.125.155.66:32784"
           ],
           "path": [
+            "api",
+            "v1",
             "customers",
             "{{customerId}}",
             "orders"
@@ -119,11 +127,13 @@
       "request": {
         "method": "GET",
         "url": {
-          "raw": "http://localhost:19301/customers/{{customerId}}/orders/{{orderId}}",
+          "raw": "http://88.125.155.66:32784/api/v1/customers/{{customerId}}/orders/{{orderId}}",
           "host": [
-            "http://localhost:19301"
+            "http://88.125.155.66:32784"
           ],
           "path": [
+            "api",
+            "v1",
             "customers",
             "{{customerId}}",
             "orders",
@@ -137,11 +147,13 @@
       "request": {
         "method": "GET",
         "url": {
-          "raw": "http://localhost:19301/customers/{{customerId}}/orders/{{orderId}}/products",
+          "raw": "http://88.125.155.66:32784/api/v1/customers/{{customerId}}/orders/{{orderId}}/products",
           "host": [
-            "http://localhost:19301"
+            "http://88.125.155.66:32784"
           ],
           "path": [
+            "api",
+            "v1",
             "customers",
             "{{customerId}}",
             "orders",
@@ -156,11 +168,13 @@
       "request": {
         "method": "GET",
         "url": {
-          "raw": "http://localhost:19301/customers/{{customerId}}/orders/{{orderId}}/products/{{productId}}",
+          "raw": "http://88.125.155.66:32784/api/v1/customers/{{customerId}}/orders/{{orderId}}/products/{{productId}}",
           "host": [
-            "http://localhost:19301"
+            "http://88.125.155.66:32784"
           ],
           "path": [
+            "api",
+            "v1",
             "customers",
             "{{customerId}}",
             "orders",

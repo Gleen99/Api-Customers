@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "ts-node server.tsx",
     "build": "tsc",
     "dev": "nodemon --watch src --ext ts,tsx --exec ts-node server.tsx",
-    "build:watch": "tsc --watch"
+    "build:watch": "tsc --watch",
+    "test:newman": "newman run src/tests/api-customer.postman_collection.json"
   },
   "keywords": [],
   "author": "",
@@ -17,22 +19,27 @@
     "amqplib": "^0.10.4",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
+    "express-rate-limit": "^7.3.1",
+    "helmet": "^7.1.0",
     "joi": "^17.13.3",
     "mongoose": "^8.4.0",
     "nodemon": "^3.1.3",
     "pg": "^8.12.0",
+    "prom-client": "^15.1.3",
     "sequelize": "^6.37.3",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5",
-    "uuid": "^10.0.0"
+    "uuid": "^10.0.0",
+    "winston": "^3.13.0"
   },
   "devDependencies": {
     "@types/amqplib": "^0.10.5",
     "@types/pg": "^8.11.6",
     "@types/swagger-jsdoc": "^6.0.4",
     "@types/swagger-ui-express": "^4.1.6",
-    "@types/uuid": "^10.0.0"
+    "@types/uuid": "^10.0.0",
+    "newman": "^6.1.3"
   }
 }
