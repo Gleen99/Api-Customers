@@ -1,0 +1,209 @@
+{
+  "info": {
+    "name": "API Customers",
+    "description": "Collection de requêtes pour tester l'API Customers",
+    "_postman_id": "YOUR_POSTMAN_COLLECTION_ID"
+  },
+  "item": [
+    {
+      "name": "Récupérer tous les clients",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:19301/customers"
+      }
+    },
+    {
+      "name": "Récupérer un client",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:19301/customers/{{customerId}}",
+          "host": [
+            "http://localhost:19301"
+          ],
+          "path": [
+            "customers",
+            "{{customerId}}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Créer un client",
+      "request": {
+        "method": "POST",
+        "url": "http://localhost:19301/customers",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"name\": \"John Doe\",\n    \"username\": \"johndoe123\",\n    \"firstName\": \"John\",\n    \"lastName\": \"Doe\",\n    \"address\": {\n        \"postalCode\": \"75001\",\n        \"city\": \"Paris\"\n    },\n    \"profile\": {\n        \"firstName\": \"John\",\n        \"lastName\": \"Doe\"\n    },\n    \"company\": {\n        \"companyName\": \"Acme Inc.\"\n    }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "var jsonData = pm.response.json();",
+              "pm.environment.set(\"customerId\", jsonData._id);"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Mettre à jour un client",
+      "request": {
+        "method": "PUT",
+        "url": {
+          "raw": "http://localhost:19301/customers/{{customerId}}",
+          "host": [
+            "http://localhost:19301"
+          ],
+          "path": [
+            "customers",
+            "{{customerId}}"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"name\": \"John Doe Updated\",\n    \"username\": \"johndoe123updated\",\n    \"firstName\": \"John\",\n    \"lastName\": \"Doe\",\n    \"address\": {\n        \"postalCode\": \"75002\",\n        \"city\": \"Paris\"\n    },\n    \"profile\": {\n        \"firstName\": \"John\",\n        \"lastName\": \"Doe\"\n    },\n    \"company\": {\n        \"companyName\": \"Acme Corp.\"\n    }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Supprimer un client",
+      "request": {
+        "method": "DELETE",
+        "url": {
+          "raw": "http://localhost:19301/customers/{{customerId}}",
+          "host": [
+            "http://localhost:19301"
+          ],
+          "path": [
+            "customers",
+            "{{customerId}}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Récupérer les commandes d'un client",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:19301/customers/{{customerId}}/orders",
+          "host": [
+            "http://localhost:19301"
+          ],
+          "path": [
+            "customers",
+            "{{customerId}}",
+            "orders"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Récupérer une commande spécifique d'un client",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:19301/customers/{{customerId}}/orders/{{orderId}}",
+          "host": [
+            "http://localhost:19301"
+          ],
+          "path": [
+            "customers",
+            "{{customerId}}",
+            "orders",
+            "{{orderId}}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Récupérer les produits d'une commande d'un client",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:19301/customers/{{customerId}}/orders/{{orderId}}/products",
+          "host": [
+            "http://localhost:19301"
+          ],
+          "path": [
+            "customers",
+            "{{customerId}}",
+            "orders",
+            "{{orderId}}",
+            "products"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Récupérer un produit spécifique d'une commande d'un client",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:19301/customers/{{customerId}}/orders/{{orderId}}/products/{{productId}}",
+          "host": [
+            "http://localhost:19301"
+          ],
+          "path": [
+            "customers",
+            "{{customerId}}",
+            "orders",
+            "{{orderId}}",
+            "products",
+            "{{productId}}"
+          ]
+        }
+      }
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "customerId",
+      "value": ""
+    },
+    {
+      "key": "orderId",
+      "value": ""
+    },
+    {
+      "key": "productId",
+      "value": ""
+    }
+  ]
+}
