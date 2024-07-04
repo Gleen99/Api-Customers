@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
 import Customer from "../models/orders/CustomersModels";
-import { requestOrderDetails } from "../consumers/requestOrderDetails";
+import {fetchOrderDetails} from "../consumers/orderService";
 
 export const getCustomerOrders = async (req: Request, res: Response) => {
     const { customerId } = req.params;
@@ -11,7 +11,7 @@ export const getCustomerOrders = async (req: Request, res: Response) => {
             return res.status(404).json({ message: 'Client non trouvé' });
         }
 
-        const orders = await requestOrderDetails(customerId);
+        const orders = await fetchOrderDetails(customerId);
         res.status(200).json(orders);
     } catch (error) {
         console.error('Erreur lors de la récupération des commandes du client:', error);

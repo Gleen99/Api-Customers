@@ -3,7 +3,7 @@ import { Types } from "mongoose";
 
 export const fetchOrderDetails = async (customerId: string, orderId?: string, productId?: string): Promise<any> => {
     const correlationId = new Types.ObjectId().toString();
-    const responseQueue = `get_customer_produits_response_${correlationId}`;
+    const responseQueue = `order_details_response_${correlationId}`;
 
     return new Promise<any>((resolve, reject) => {
         const timeoutId = setTimeout(() => {
@@ -12,8 +12,8 @@ export const fetchOrderDetails = async (customerId: string, orderId?: string, pr
             reject(new Error('Timeout en attendant la réponse'));
         }, 60000);
 
-        console.log(`Envoi de la requête pour les commandes du client ${customerId} sur la queue 'get_customer_produits'`);
-        rabbitMQClient.publishMessage('get_customer_produits', JSON.stringify({
+        console.log(`Envoi de la requête pour les commandes du client ${customerId} sur la queue 'get_order_details'`);
+        rabbitMQClient.publishMessage('get_order_details', JSON.stringify({
             customerId,
             orderId,
             productId,
@@ -36,13 +36,5 @@ export const fetchOrderDetails = async (customerId: string, orderId?: string, pr
                 reject(new Error('Aucune réponse reçue'));
             }
         });
-
-        rabbitMQClient.publishMessage('get_customer_produits', JSON.stringify({
-            customerId,
-            orderId,
-            productId,
-            correlationId,
-            responseQueue
-        }));
     });
 };

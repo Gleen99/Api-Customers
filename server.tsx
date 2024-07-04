@@ -4,12 +4,11 @@ import swaggerSpec from './swagger';
 import { rabbitMQClient } from './rabbitmq';
 import customersRoutes from "./src/routes/CustomersRoutes";
 import express, { Express, Request, Response, NextFunction } from 'express';
-import { initOrderConsumer } from "./src/consumers/orderConsumer";
 import helmet from 'helmet';
 import rateLimit from 'express-rate-limit';
 import winston from 'winston';
 import dotenv from 'dotenv';
-import {initGetCustomerOrdersConsumer} from "./src/consumers/initGetCustomerOrdersConsumer";
+import {setupCustomerService} from "./src/services/customerServices";
 
 dotenv.config();
 
@@ -75,8 +74,7 @@ const connectToRabbitMQ = async () => {
         logger.info('Connecté à RabbitMQ');
         await rabbitMQClient.setup();
         logger.info('Setup RabbitMQ terminé');
-        await initOrderConsumer();
-        await initGetCustomerOrdersConsumer();
+        await setupCustomerService();
         logger.info('Consommateurs initialisés');
     } catch (err) {
         logger.error('Erreur lors de la configuration de RabbitMQ:', err);
