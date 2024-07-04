@@ -119,7 +119,7 @@ const startServer = async () => {
         await connectToMongoDB();
         await connectToRabbitMQ();
 
-        const PORT = 19301;
+        const PORT = 3000;
         app.listen(PORT, () => {
             logger.info(`Serveur démarré sur le port ${PORT}`);
             logger.info(`Documentation Swagger disponible sur http://localhost:${PORT}${API_BASE_PATH}/docs`);
