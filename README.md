@@ -140,11 +140,6 @@ Cette API gère les clients pour un système de e-commerce. Elle permet de crée
     - `productId` : ID du produit
 - **Réponse** : Objet du produit
 
-## Tests
-
-Pour exécuter les tests :
-
-A compléter
 
 ## Documentation Swagger
 
