@@ -8,6 +8,7 @@ import helmet from 'helmet';
 import rateLimit from 'express-rate-limit';
 import winston from 'winston';
 import dotenv from 'dotenv';
+import promClient from 'prom-client';
 import {setupCustomerService} from "./src/services/customerServices";
 
 dotenv.config();
@@ -31,6 +32,14 @@ if (process.env.NODE_ENV !== 'production') {
         format: winston.format.simple(),
     }));
 }
+
+// Configuration des métriques Prometheus
+const collectDefaultMetrics = promClient.collectDefaultMetrics;
+collectDefaultMetrics();
+app.get('/metrics', async (req: Request, res: Response) => {
+    res.set('Content-Type', promClient.register.contentType);
+    res.end(await promClient.register.metrics());
+});
 
 // Middlewares de sécurité
 app.use(helmet());
