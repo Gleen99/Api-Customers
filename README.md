@@ -150,7 +150,7 @@ A compléter
 
 La documentation Swagger de l'API est disponible à l'adresse :
 ```
-http://localhost:19301/api-docs
+http://localhost:19301/api/v1/docs
 ```
 
 ## Gestion des Erreurs
