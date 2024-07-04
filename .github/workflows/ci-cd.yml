@@ -4,12 +4,14 @@ on:
   push:
     branches:
       - master
+      - develop
   pull_request:
     branches:
       - master
+      - develop
 
 jobs:
-  build-and-test:
+  build:
     runs-on: ubuntu-latest
 
     services:
@@ -17,37 +19,33 @@ jobs:
         image: mongo:latest
         ports:
           - 27017:27017
-        options: >-
-          --health-cmd="echo 'db.runCommand({ ping: 1 })' | mongo --quiet"
-          --health-interval=10s
-          --health-timeout=5s
-          --health-retries=5
-
+        options: --health-cmd="mongosh --eval 'db.stats()' || exit 1" --health-interval=10s --health-timeout=5s --health-retries=3
       rabbitmq:
         image: rabbitmq:3-management
         ports:
           - 5672:5672
           - 15672:15672
-
-    env:
-      MONGODB_URI: ${{ secrets.MONGODB_URI }}
-      RABBITMQ_HOST: ${{ secrets.RABBITMQ_HOST }}
-      RABBITMQ_PORT: ${{ secrets.RABBITMQ_PORT }}
-      RABBITMQ_USERNAME: ${{ secrets.RABBITMQ_USERNAME }}
-      RABBITMQ_PASSWORD: ${{ secrets.RABBITMQ_PASSWORD }}
-      JWT_SECRET: ${{ secrets.JWT_SECRET }}
+        options: --health-cmd="rabbitmq-diagnostics -q ping" --health-interval=10s --health-timeout=5s --health-retries=3
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+    - name: Checkout code
+      uses: actions/checkout@v2
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: '16'
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
 
-      - name: Install dependencies
-        run: npm install
+    - name: Install dependencies
+      run: npm install
 
-      - name: Run tests
-        run: npm run test:newman
+    - name: Run tests
+      env:
+        MONGODB_URI: ${{ secrets.MONGODB_URI }}
+        RABBITMQ_HOST: ${{ secrets.RABBITMQ_HOST }}
+        RABBITMQ_PORT: ${{ secrets.RABBITMQ_PORT }}
+        RABBITMQ_USERNAME: ${{ secrets.RABBITMQ_USERNAME }}
+        RABBITMQ_PASSWORD: ${{ secrets.RABBITMQ_PASSWORD }}
+        JWT_SECRET: ${{ secrets.JWT_SECRET }}
+        base_url: "http://88.125.155.66:32784/api/v1"
+      run: npm run test:newman
